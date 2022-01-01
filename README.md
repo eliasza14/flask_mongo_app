@@ -11,11 +11,7 @@ projects.
 2. Start the services:`docker-compose up -d`
 3. (Optional) Stop the services and destroy volumes:`docker-compose down -v`
 
-The compilation of the backend usually takes most of the time so you can
-check the logs to if everything is ready using the following command.
-```
-docker logs -f mf_build_backend
-```
+
 To check that everything is ready you can enter the following urls
 on your browser.
 ```
